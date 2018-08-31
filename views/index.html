@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet" type="text/css">
+      <link href="/assets/style.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="container">
+          <h2>TIMESTAMP MICROSERVICE</h2>
+          <h3>This is a Timestamp Microservice. It can be called with a natural date(2015-12-25 or Dec 25, 2015) or unix date timestamp(1451001600000) as a parameter and returns a JSON with both the unix time stamp and natural language form of the given date.</h3>
+          <p>To see the current date and time add: <a href="https://edkahara-timestamp-microservice.glitch.me/date"><code>/date</code></a></p>
+          <p>To see any other date and time, follow the examples below.</p>
+          <h4>Example:</h4>
+          <ul>
+              <li><a href="https://edkahara-timestamp-microservice.glitch.me/date/2015-12-25"><code>/date/2015-12-25</code></a></li>
+              <li><a href="https://edkahara-timestamp-microservice.glitch.me/date/Dec 25, 2015"><code>/date/Dec 25, 2015</code></a></li>
+              <li><a href="https://edkahara-timestamp-microservice.glitch.me/date/1451001600000"><code>/date/1451001600000</code></a></li>
+          </ul>
+          <h4>Result:</h4>
+          <p>
+              <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+          </p>
+      </div>
+   </body>
+</html>
